@@ -1,0 +1,57 @@
+@import url(/Css/main.css);
+
+
+html{
+
+    
+}
+.infobox{
+
+    text-align: center;
+    font-size: 18px;
+}
+.space{
+
+    width: 100%;
+    height: 75px;
+    
+}
+
+/*IMAGES*/
+
+.images img{
+
+   
+    border-style: solid;
+    background-position: center;
+    background-size: contain;
+    background-color:grey;
+    background-repeat: no-repeat;
+    max-height: 256px;
+    margin: 8px;
+    border-width: 10px;
+    border-color: rgb(170, 169, 169);
+   
+    
+
+}
+/*OVERRIDE*/
+
+.category{
+
+    max-width: 1000px;
+}
+
+.category .images  {
+
+        align-content: center;
+        font-size: 16px;
+        display: flex;
+        flex-flow: wrap;
+
+} 
+    
+
+
+
+

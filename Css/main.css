@@ -1,0 +1,182 @@
+html{    
+        
+        background-image: url(/img/Tavola\ disegno\ 1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        
+}
+
+body{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 36px;
+        
+}
+.ft{ /*SETTINGS FOR THE FOOTER*/
+        
+        
+        overflow: hidden;
+        font-size: 22px;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        width: 200px;
+        
+}
+/*PHOTO*/
+.photo{  /*profile picture*/
+
+        
+        position: relative;
+        margin: 25px auto 0px auto;
+        width: 175px;
+        height: 175px;
+        border-radius: 50%;
+        
+        /*Settings for picture*/
+        background-image: url(/img/foto_31769.jpg);
+        background-position: center;
+        background-size: contain;
+        background-color:grey;
+        background-repeat: no-repeat;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) ,0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
+/*ICONS*/
+.contact{ /*icons container*/
+
+        position: relative;
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        margin:auto;
+        
+}
+.contact a{ 
+        
+        display: inline;
+        color: white; /* White text color */
+        font-size: 36px; /* Increased font size */
+        
+
+}
+a:hover{
+        color: black;
+        
+
+}
+
+/*GENERAL CATEGORY*/
+
+.category{
+
+         max-width: 700px;
+         position: relative;
+         margin: 30px auto 25px auto;
+         color: white;
+         font-size: 40px;    
+         
+}
+
+.category .box{ /*GENERAL PURPOSE BOX*/
+        border-radius: 20px;
+        background-color: rgba(204, 204, 204, 0.295);
+        padding-left: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 100px;
+        margin: inherit;
+        font-size: 23px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) ,0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+        
+        
+}
+.box .skills{   /*BOX FOR SKILLS*/
+        
+        display: flex;
+
+
+}
+
+.category .games{ /*ONLY FOR CONTAINING GAMES*/
+        
+        align-content: center;
+        font-size: 16px;
+        display: flex;
+        flex-flow: wrap;
+        
+
+
+}
+.game{
+        
+        
+        margin:  30px 10px 25px 10px;
+        border-radius: 20px;
+        background-color: rgba(204, 204, 204, 0.295);
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 50px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) ,0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+
+}
+
+.game-img{
+
+        position: relative;
+        margin: auto;
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        background-color: gray;
+        background-position: center;
+        background-size: cover;
+        
+        background-repeat: no-repeat;
+
+}
+.game-img:hover{
+       
+       opacity: 0.7;
+       transition: opacity 0.5s ease;
+}
+.game-description{
+        vertical-align: top;
+        padding: 7px 10px 10px 10px;
+        text-align: center;
+        margin: auto;
+        
+        max-width: 200px;
+        max-height: 75px;
+        
+        
+
+}
+/*LIST & LIST ITEM*/
+.ul{
+
+        
+        display: block;
+}
+
+li{
+       list-style: none;
+        font-size: 18px;
+}
+/*MODIFIED LINKS FOR GAME JAM*/
+.game-link:link {
+        text-decoration: none;
+        color: white;
+      }
+      
+.game-link:visited{
+        text-decoration: none;
+        color: rgb(235, 235, 184);
+
+}
+.game-link:hover {
+        text-decoration: underline;
+        color: black;
+      }

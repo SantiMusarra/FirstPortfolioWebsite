@@ -1,0 +1,47 @@
+@media only screen and (max-width: 600px) {
+    .body{
+
+        font-size: 18px;
+    }
+    .category{
+        
+        margin: 15px auto 10px auto;
+        font-size: 20px;
+    }
+    .category .box{
+        margin: inherit;
+        font-size: 15px;
+        padding-left: 13px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 13px;
+    }
+    
+    .category .games{
+        
+        flex-direction: column;
+    }
+    .game{
+
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        margin:  15px 5px 10px 5px;
+    }
+    .li{
+
+        font-size: 13px;
+    }
+
+    .ft{
+
+        font-size: 15px;
+    }
+
+
+    /*GAME PAGES*/
+
+    
+    
+  }
